@@ -1,0 +1,33 @@
+
+create Employee Url = http://localhost:8001/api/v1/employee
+payload for save mapping: {
+                              "empName":"Tarun Kumar Nanda",
+                              "empEmail":"tkumarna98@gmail.com",
+                              "empPhone":"9876785431",
+                              "empAddress":{
+                                  "city":"bdk",
+                                  "state":"odisha",
+                                  "pin":"756133"
+                              }
+                          }
+
+
+update Employee Url = http://localhost:8001/api/v1/employee
+ Payload for update Employee:  {
+                                   "id": 1,
+                                   "empName": "Tarun Kumar Nanda",
+                                   "empEmail": "tkumarna98@gmail.com",
+                                   "empPhone": "9876785431",
+                                   "empAddress": {
+                                       "city": "bdk",
+                                       "state": "odisha",
+                                       "pin": "756133"
+                                   }
+                               }
+
+ Get All Employee record from DB Url = http://localhost:8001/api/v1/employee
+
+ get employee details by  id Url = http://localhost:8001/api/v1/employee/{id}    //here in {id} you have to pass employee id
+
+ delete employee by id Url = http://localhost:8001/api/v1/employee/{id}          //here in {id} you have to pass employee id
+
