@@ -27,6 +27,10 @@ update Employee Url = http://localhost:8001/api/v1/employee
 
  Get All Employee record from DB Url = http://localhost:8001/api/v1/employee
 
+
+
+Now I added Docker file for dockerization
+
  get employee details by  id Url = http://localhost:8001/api/v1/employee/{id}    //here in {id} you have to pass employee id
 
  delete employee by id Url = http://localhost:8001/api/v1/employee/{id}          //here in {id} you have to pass employee id
